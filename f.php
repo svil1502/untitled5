@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="process.php" method="post">
+
+    Фамилия имя отчество: <input type="text" name="FName"/><br>
+    Год рождения: <input type="text" name="FDate"/><br>
+    <br>
+    Владение языками:
+    PHP<input type="checkbox" name="formDoor[]" value="PHP" />
+    SQL <input type="checkbox" name="formDoor[]" value="SQL" />
+    JS <input type="checkbox" name="formDoor[]" value="JS" />
+    HTML<input type="checkbox" name="formDoor[]" value="HTML" />
+    CSS <input type="checkbox" name="formDoor[]" value="CSS" />
+    <br>
+    Message:   <textarea name="Message" cols="30" rows="5"></textarea>
+
+    <input type="submit" name="submit" value="Submit Data"/>
+
+</form>
+
+</body>
+</html>
